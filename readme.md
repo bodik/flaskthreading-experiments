@@ -1,5 +1,5 @@
 The app1 works as expected. The app2 tries to use just a bit of app factory
-pattern and no code change, so WHY request app2 to app2 results in 'No
+pattern and no code change, so WHY request to app2 results in 'No
 application found' in spawned thread code ?
 
 
