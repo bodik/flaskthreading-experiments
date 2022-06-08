@@ -34,3 +34,19 @@ Traceback (most recent call last):
     raise RuntimeError(
 RuntimeError: No application found. Either work inside a view function or push an application context. See http://flask-sqlalchemy.pocoo.org/contexts/.
 ```
+
+
+## MVP Usage
+
+```
+git clone
+pip install -r requirements.txt
+
+# working app
+FLASK_APP=app1 flask run
+curl http://localhost:5000/
+
+# produces error
+FLASK_APP=app2.app flask run
+curl http://localhost:5000/
+```
